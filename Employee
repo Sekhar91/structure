@@ -1,0 +1,53 @@
+#include<stdio.h>
+
+
+       struct Employee
+       {
+             
+              char Name[25];
+              Int phone number;
+              int Age;
+              long Salary;
+       };
+
+       void main()
+       {
+
+              struct Employee E;             //Statement  1
+
+ 
+
+                    printf("\nEnter Employee Name : ");
+                    scanf("%s",&E.Name);
+          
+                    printf("\nEnter Employee phone number: ");
+                    scanf("%d",&E.phone number)
+
+                    printf("\nEnter Employee Age : ");
+                    scanf("%d",&E.Age);
+
+                    printf("\nEnter Employee Salary : ");
+                    scanf("%ld",&E.Salary);
+
+                    
+                    printf("\nEmployee Name : %s",E.Name);
+                    printf("\n\nEmployee Id : %d",E.phone number);
+                    printf("\nEmployee Age : %d",E.Age);
+                    printf("\nEmployee Salary : %ld",E.Salary);
+
+
+       }
+
+   Output :
+
+              
+              Enter Employee Name : Kumar
+              Enter Employee phone number : 1234567788
+              Enter Employee Age : 24
+              Enter Employee Salary : 20000
+
+              
+              Employee Name : Arnav 
+              Enter Employee phone number : 123445566
+              Employee Age :31
+              Employee Salary : 56000
